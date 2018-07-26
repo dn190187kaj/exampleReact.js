@@ -1,0 +1,103 @@
+exports[`<ForgotPassword /> mobile version should render self and subcomponents 1`] = `
+<div
+  className="forgot-password-page">
+  <Header
+    type="registration" />
+  <div
+    className="forgot-password-main-mob">
+    <h1>
+      Forgot Password
+    </h1>
+    <div
+      className="stage-1">
+      <form
+        className="form-field">
+        <TextField
+          className="login-input"
+          disabled={false}
+          errorStyle={
+            Object {
+              "fontSize": "12px",
+              "marginTop": "-24px",
+              "top": "24px",
+            }
+          }
+          errorText=""
+          floatingLabelFixed={false}
+          fullWidth={false}
+          hintStyle={
+            Object {
+              "bottom": "12px",
+              "left": "0",
+              "right": "0",
+            }
+          }
+          hintText="Your Email"
+          inputStyle={
+            Object {
+              "textAlign": "center",
+            }
+          }
+          multiLine={false}
+          onChange={[Function]}
+          rows={1}
+          style={
+            Object {
+              "fontSize": "16px",
+              "height": "48px",
+              "lineHeight": "24px",
+              "width": "95vw",
+            }
+          }
+          type="text"
+          underlineShow={true}
+          underlineStyle={
+            Object {
+              "borderColor": "#8d8d8d",
+            }
+          } />
+        <br />
+        <RaisedButton
+          className="login-btn"
+          disabled={false}
+          fullWidth={false}
+          label="Enter"
+          labelPosition="after"
+          onClick={[Function]}
+          primary={true}
+          secondary={false}
+          style={
+            Object {
+              "fontSize": "16px",
+              "height": "36px",
+              "lineHeight": "36px",
+              "marginTop": "60px",
+              "width": "45vw",
+            }
+          }
+          type="submit" />
+        <div
+          className="login-link">
+          <span>
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/login">
+              Login
+            </Link>
+          </span>
+          <span>
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/registration">
+              Register
+            </Link>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <LoginAndSignUpFooterContainer />
+</div>
+`;

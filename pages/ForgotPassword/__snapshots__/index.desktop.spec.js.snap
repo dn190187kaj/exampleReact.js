@@ -1,0 +1,72 @@
+exports[`<ForgotPassword /> desktop version should render self and subcomponents 1`] = `
+<div
+  className="forgot-password-page">
+  <Header
+    type="registration" />
+  <div
+    className="forgot-password-main">
+    <h1>
+      Forgot Password
+    </h1>
+    <div
+      className="stage-1">
+      <form
+        className="form-field">
+        <TextField
+          className="login-input"
+          disabled={false}
+          errorText=""
+          floatingLabelFixed={false}
+          floatingLabelText="Your Email"
+          fullWidth={false}
+          multiLine={false}
+          onChange={[Function]}
+          rows={1}
+          style={
+            Object {
+              "width": "400px",
+            }
+          }
+          type="text"
+          underlineShow={true}
+          underlineStyle={
+            Object {
+              "borderColor": "#8d8d8d",
+            }
+          } />
+        <br />
+        <RaisedButton
+          className="login-btn"
+          disabled={false}
+          fullWidth={false}
+          label="Enter"
+          labelPosition="after"
+          onClick={[Function]}
+          primary={true}
+          secondary={false}
+          type="submit" />
+        <div
+          className="login-link">
+          <span>
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/login">
+              Login
+            </Link>
+          </span>
+          <span>
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/registration">
+              Register
+            </Link>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <LoginAndSignUpFooterContainer />
+</div>
+`;
